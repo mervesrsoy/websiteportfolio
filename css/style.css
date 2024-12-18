@@ -156,3 +156,75 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
+/*SERTIFIKALARIM */
+
+.inner_courses{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.child_courses{
+    flex-basis: 24%;
+    color: #fff;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+}
+.child_courses:hover{
+    border: 1px solid #24CAAC;
+}
+
+/*ILETISIM*/
+
+.inner_contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 30%;
+}
+.child_contact{
+    flex-basis: 45%;
+}
+.child_contact form{
+    padding: 50px 40px;
+    background-color: #2F363E;
+    border-radius: 5px;
+}
+.child_contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292D;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in;
+}
+.child_contact form input,textarea:focus{
+    color:palevioletred;
+    
+}
+.child_contact form input:focus{
+    letter-spacing: 1px; 
+}
+.child_contact form textarea:focus{
+    letter-spacing: 1px;
+}
+.child_contact form input:last-child{
+    margin-bottom: 0;
+    background: #24CAAC;
+    border: 1px solid #24CAAC;
+    transition: .3s;
+}
+.child_contact form input:last-child:hover{
+    color: #fff;
+    background:palevioletred;
+
+}
